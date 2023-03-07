@@ -1,6 +1,6 @@
 const userChoise = prompt('What value du you choose? \n if sum type:  +  ; \n if diff type:  -  ; \n if mult type:  *  ;\n if div type:  /  ;\n if sinus div type:  sin  ;\n if cosinus type:  cos  ;\n if pow type:  pow  ;');
 
-/*const firstNumber = +prompt('Enter the first number!');
+const firstNumber = +prompt('Enter the first number!');
 const secondNumber = +prompt('Enter the second number!');
 
 const sumNumbers = firstNumber + secondNumber;
@@ -17,7 +17,7 @@ const responceMult = `Responce: ${multNumbers}`;
 const responceDiv = `Responce: ${divNumbers}`;
 const responceSin = `Responce: ${sinValue}`;
 const responceCos = `Responce: ${cosValue}`;
-const responcePow = `Responce: ${powValue}`;*/
+const responcePow = `Responce: ${powValue}`;
 
 
 
