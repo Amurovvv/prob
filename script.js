@@ -1,47 +1,45 @@
 const userChoise = prompt('What value du you choose? \n if sum type:  +  ; \n if diff type:  -  ; \n if mult type:  *  ;\n if div type:  /  ;\n if sinus div type:  sin  ;\n if cosinus type:  cos  ;\n if pow type:  pow  ;');
 
-const firstNumber = +prompt('Enter the first number!');
-const secondNumber = +prompt('Enter the second number!');
-
-const sumNumbers = firstNumber + secondNumber;
-const diffNumbers = firstNumber - secondNumber;
-const multNumbers = firstNumber * secondNumber;
-const divNumbers = firstNumber / secondNumber;
-const sinValue = Math.sin(typeValue);
-const cosValue = Math.cos(typeValue);
-const powValue = Math.pow(typeValue, secondNumber );
-
-const responceSum = `Responce: ${sumNumbers}`;
-const responceDiff = `Responce: ${diffNumbers}`;
-const responceMult = `Responce: ${multNumbers}`;
-const responceDiv = `Responce: ${divNumbers}`;
-const responceSin = `Responce: ${sinValue}`;
-const responceCos = `Responce: ${cosValue}`;
-const responcePow = `Responce: ${powValue}`;
-
-
-
 switch (userChoise) {
-    case '+':  
-        alert(responceSum);
+    case '+':
+        const firstNumber = +prompt('Enter the first number!');
+        const secondNumber = +prompt('Enter the second number!');
+        const sumNumbers = firstNumber + secondNumber;
+        alert(`Responce: ${sumNumbers}`);
         break;
     case '-':
-        alert(responceDiff);
+        const firstNumber = +prompt('Enter the first number!');
+        const secondNumber = +prompt('Enter the second number!');
+        const diffNumbers = firstNumber - secondNumber;
+        alert(`Responce: ${diffNumbers}`);
         break;
     case '*':
-        alert(responceMult);
+        const firstNumber = +prompt('Enter the first number!');
+        const secondNumber = +prompt('Enter the second number!');
+        const multNumbers = firstNumber * secondNumber;
+        alert(`Responce: ${multNumbers}`);
         break;
     case '/':
-        alert(responceDiv);
+        const firstNumber = +prompt('Enter the first number!');
+        const secondNumber = +prompt('Enter the second number!');
+        const divNumbers = firstNumber / secondNumber;
+        alert(`Responce: ${divNumbers}`);
         break;
     case 'sin':
-        alert(responceSin);
+        const firstNumber = +prompt('Enter a number!');
+        const sinValue = Math.sin(firstNumber);
+        alert(`Responce: ${sinValue}`);
         break;
     case 'cos':
-        alert(responceCos);
+        const firstNumber = +prompt('Enter a number!');
+        const cosValue = Math.cos(firstNumber);
+        alert(`Responce: ${cosValue}`);
         break;
     case 'pow':
-        alert(responcePow);
+        const firstNumber = +prompt('Enter the first number!');
+        const firstNumber = +prompt('Enter the first number!');
+        const powValue = Math.pow(firstNumber, secondNumber );
+        alert(`Responce: ${powValue}`);
         break;
     default:
         alert('Try again');
